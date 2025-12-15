@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/paska/CLionProjects/parallel_bfs/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"parlaylib-populate"
+		],
+		"name" : "parlaylib-populate"
+	}
+}

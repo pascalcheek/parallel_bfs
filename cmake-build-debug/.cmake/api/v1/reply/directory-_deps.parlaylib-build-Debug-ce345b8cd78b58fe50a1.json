@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/parlaylib-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/parlay/cmake",
+			"exportName" : "parlay_Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "parlay::@d4f99a628800894d250b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/parlaylib-build/CMakeFiles/Export/7ffd784ba1085ea8c1a89af472a4fcd0/ParlayTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/parlay/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/parlaylib-build/ParlayConfig.cmake",
+				"cmake-build-debug/_deps/parlaylib-build/ParlayConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/parlaylib-src/include/parlay"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/parlaylib-build",
+		"source" : "cmake-build-debug/_deps/parlaylib-src"
+	}
+}

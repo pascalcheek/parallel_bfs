@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/parlaylib-build/analysis",
+		"source" : "cmake-build-debug/_deps/parlaylib-src/analysis"
+	}
+}
