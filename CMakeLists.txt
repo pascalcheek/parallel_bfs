@@ -2,13 +2,9 @@ cmake_minimum_required(VERSION 3.15)
 project(parallel_bfs VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-if(CMAKE_BUILD_TYPE STREQUAL "Release")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native")
-endif()
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native")
 
-set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
 include(FetchContent)
@@ -20,14 +16,7 @@ FetchContent_Declare(
 
 set(FETCHCONTENT_BASE_DIR ${CMAKE_BINARY_DIR}/_deps CACHE PATH "Base directory for fetched content")
 
-FetchContent_GetProperties(parlaylib)
-if(NOT parlaylib_POPULATED)
-    message(STATUS "Fetching parlaylib...")
-    FetchContent_Populate(parlaylib)
-    message(STATUS "Parlaylib fetched to: ${parlaylib_SOURCE_DIR}")
-
-    add_subdirectory(${parlaylib_SOURCE_DIR} ${parlaylib_BINARY_DIR} EXCLUDE_FROM_ALL)
-endif()
+FetchContent_MakeAvailable(parlaylib)
 
 add_executable(speed_measure
         main.cpp
