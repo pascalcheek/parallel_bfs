@@ -63,10 +63,11 @@ CMAKE_BINARY_DIR = C:\Users\paska\CLionProjects\parallel_bfs\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/speed_measure.dir/all
+all: _deps/parlaylib-build/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: _deps/parlaylib-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.

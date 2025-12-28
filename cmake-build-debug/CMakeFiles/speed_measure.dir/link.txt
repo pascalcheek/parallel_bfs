@@ -1,3 +1,3 @@
 C:\Users\paska\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\speed_measure.dir/objects.a
 C:\Users\paska\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\speed_measure.dir/objects.a @CMakeFiles\speed_measure.dir\objects1.rsp
-C:\Users\paska\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\speed_measure.dir/objects.a -Wl,--no-whole-archive -o speed_measure.exe -Wl,--out-implib,libspeed_measure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\speed_measure.dir\linkLibs.rsp
+C:\Users\paska\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe  -O3 -march=native -g -Wl,--whole-archive CMakeFiles\speed_measure.dir/objects.a -Wl,--no-whole-archive -o speed_measure.exe -Wl,--out-implib,libspeed_measure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\speed_measure.dir\linkLibs.rsp
